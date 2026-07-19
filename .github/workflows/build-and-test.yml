@@ -30,6 +30,6 @@ jobs:
     - name: Install project dependencies
       run: npm install
     - name: Test project
-      run: npm start
+      run: npm start &
         npm test
     
